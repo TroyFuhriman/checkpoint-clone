@@ -1,0 +1,45 @@
+body{
+  font-family: 'Playfair Display', serif;
+}
+.bg-image{
+  background-image: url(soccer-ball.jpg);
+  src: url(@guillaumedegermain);
+  height: 450px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.card{
+  opacity: 75%;
+}
+.text-shadow{
+  text-shadow: 1px 1px black;
+}
+@media only screen and (min-width: 600px) {
+  .spill-out {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .sm-hidden {
+    display: none;
+  }
+}
+
+.pad{
+  padding: 1em;
+}
+.btn-right{
+  position: relative;
+  left:75%
+}
+
+.font-md{
+  font-size:medium ;
+}
+img{
+  max-width: 100%;
+  width: 100%;
+}
