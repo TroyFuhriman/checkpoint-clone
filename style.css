@@ -2,6 +2,7 @@
 header{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+
 .bg-image{
   background-image: url(soccer-ball.jpg);
   src: url(@guillaumedegermain);
@@ -21,7 +22,7 @@ background-size: cover;
 }
 @media only screen and (min-width: 600px) {
   .card{
-    opacity: 85%;
+    opacity: 75%;
   }
 }
 .text-shadow{
@@ -29,20 +30,21 @@ background-size: cover;
 }
 @media only screen and (min-width: 600px) {
   .spill-out {
-    position: relative;
-    top: 50%;
+    position: absolute;
+    top: 87%;
+    left: 50%;
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width:1200px) {
+/* @media only screen and (min-width: 700px) and (max-width:1200px) {
   .spill-out {
     position: absolute;
     top: 58%;
     left: 49%;
   }
-}
+} */
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 600px) {
   .sm-hidden {
     display: none;
   }
