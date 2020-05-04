@@ -11,6 +11,9 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+.relative{
+  position: relative;
+}
 .card{
   opacity: 75%;
   box-shadow: black;
@@ -31,8 +34,8 @@ background-size: cover;
 @media only screen and (min-width: 600px) {
   .spill-out {
     position: absolute;
-    top: 87%;
-    left: 50%;
+    bottom: -10%;
+    right: 5%;
   }
 }
 
