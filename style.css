@@ -52,6 +52,11 @@ background-size: cover;
     display: none;
   }
 }
+@media only screen and (max-width: 600px){
+.sm-1-hidden {
+  max-height: 10em;
+}
+}
 
 .pad{
   padding: 1em;
